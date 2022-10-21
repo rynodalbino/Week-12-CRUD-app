@@ -1,0 +1,63 @@
+body{
+    font-family: sans-serif;
+    background-color: azure;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app{
+    width: 500px;
+    height: 500px;
+    border: 3px solid rgb(111, 0, 255);
+    border-radius: 8px;
+    padding: 20px;
+    background-color: antiquewhite;
+    overflow-y: scroll;
+}
+
+#addNew {
+    display: flex;
+    background-color: rgb(194, 214, 211);
+    align-items: center;
+    justify-content: space-between; 
+    padding:  5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bi-plus-square-fill {
+    background-color: rgb(148, 255, 127);
+    border: 3px solid rgb(111, 0, 255);
+    padding: 3px;
+    border-radius: 3px;
+}
+
+#tasks {
+    display: grid;
+    gap: 14px;
+}
+
+#tasks div {
+    background-color: rgb(194, 214, 211);
+    border: 3px solid rgb(111, 0, 255);
+    padding: 5px;
+    border-radius: 6px;
+    display: grid;
+    gap: 14px;
+}
+
+.options {
+    justify-self: center;
+    display: flex;
+    gap: 20px;
+}
+
+.options i {
+    cursor: pointer;
+}
+
+#msg {
+    color: brown;
+}
